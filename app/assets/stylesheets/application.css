@@ -94,7 +94,7 @@ body {
   justify-content: space-between;
 }
 
-/* #splash #logo {
+#splash #logo {
   font-family: 'Dancing Script', cursive;
   padding-top: 40vh;
   font-size: xxx-large;
@@ -215,4 +215,4 @@ header form {
 #group-list label {
   border-bottom: 0.5px solid gray;
   margin-bottom: 0.5rem;
-} */
+}
