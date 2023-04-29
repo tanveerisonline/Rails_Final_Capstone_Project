@@ -1,104 +1,161 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-# Expenser App
- This is the Expenser App initiated in the fifth week of the Rails module in the Microverse program. It is a simple budget app where you can create categories of expenses, and populate them. This project was done to serve as the capstone project for the Rails module.
+<a name="readme-top"></a>
 
-## Built With
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
--  Ruby (programming language)
--  Rails (framework)
--  PostgreSQL (database)
--  Linters: [Rubocop](https://rubocop.org/)
--  Linters: [Stylent](https://stylelint.io/)
--  Visual Studio Code (code editor)
--  RSpec (testings) 
+<div align="center">
+  <h3><b>Budget App</b></h3>
+</div>
 
- ## Video Preview
+<!-- TABLE OF CONTENTS -->
 
- [Loom](https://www.loom.com/share/dad7dac94bd3448494eea11412e0c964)
+# 📗 Table of Contents
 
- ## Live demo
+- [📗 Table of Contents](#-table-of-contents)
+- [Budget App ](#budget-app-)
+  - [video demo 🎥](#video-demo-)
+  - [Render Deploy 🚀](#render-deploy-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [Acknowledgments](#acknowledgments)
+  - [📝 License ](#-license-)
 
- [Expenser](https://expenser.onrender.com)
+<!-- PROJECT DESCRIPTION -->
 
- ## SQL schema
-   ![](https://github.com/microverseinc/curriculum-rails/raw/main/capstone/images/erd_diagram.png)
+# Budget App <a name="about-project"></a>
 
+> This mobile web app allows users to create categories and add transactions to each category. The app will show the total amount spent on each category. The app is built with Ruby on Rails. The app is deployed on Render.
 
-## Getting Started
+## video demo 🎥
 
-To get a local copy up and running follow these simple steps.
+[video demo here](https://www.loom.com)
+
+## Render Deploy 🚀
+
+[Live demo here](https:)
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby On Rails</a></li>
+  </ul>
+</details>
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- Key Features -->
+
+## Key Features <a name="key-features"></a>
+
+- [x] register and log in
+- [x] Add new category
+- [x] Add new transactions associated with a category.
+- [x] see the money spent on each category
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
--  A code editor like Visual Studio Code with Git and Ruby.
+In order to run this project you need:
 
-You can check if Git is installed by running the following command in the terminal.
-```
-$ git --version
-```
+- `Ruby --version 3.2.2`
+- `Ruby on Rails --version ~> 7.0.4`
+- `Postgresql`
 
-Likewise for Ruby installation.
-```
-$ ruby --version && irb
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd your_desired_folder
+  git clone https://github.com/tanveerisonline/Rails_Final_Capstone_Project
 ```
 
 ### Install
 
-In the terminal, navigate to where you wish the repo to be located and run these commands.
+Install this project gems with:
 
-```
-$ git clone https://github.com/lucas-crodrigues/rails-capstone.git
-```
-```
-$ cd rails-capstone
-```
-```
-$ bundle install
-```
-```
-$ rails server
-```
+- After cloning type `cd budget-app`.
+- Run `bundle install` to install all gems.
+
+### Usage
+
+To run the project, execute the following command:
+
+- Run `rails db:create` to create a new database
+- Run `rails db:migrate` to migrate the db and build the schema
+- Run `rails s` to start the server
 
 ### Run tests
 
-To install rspec, in the terminal kindly run this command
+- Run `rspec` to run the tests
 
-```
-$ gem install rspec
-```
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-To run tests, please run this command
+<!-- AUTHORS -->
 
-```
-$ rspec ./spec/#{filename}_spec.rb
-```
+## 👥 Authors <a name="authors"></a>
 
-## Authors
+👤 **Tanveer Ahmad**
 
-👤 **Lucas Costa Rodrigues**
+- GitHub: [@tanveerisonline](https://github.com/tanveerisonline)
+- Twitter: [Tanveer Ahmad](https://twitter.com/Tanveer98589023)
+- LinkedIn: [Tanveer Ahmad](https://www.linkedin.com/in/tanveer-ahmad-899462211/)
 
-- GitHub: [@lucas-crodrigues](https://github.com/lucas-crodrigues)
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-- Twitter: [@lcrodrigues58](https://twitter.com/lcrodrigues58)
+<!-- FUTURE FEATURES -->
 
-- LinkedIn: [Lucas Costa Rodrigues](https://www.linkedin.com/in/lucascostarodrigues/)
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🤝 Contributing
+- [ ] **implement some UX**
+- [ ] **decent desktop design**
+- [ ] **Implement the left side menu**
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tanveerisonline/Rails_Final_Capstone_Project/issues)
 
-## Show your support
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
 Give a ⭐️ if you like this project!
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ## Acknowledgments
 
-- [Microverse](https://github.com/microverseinc) team.
-- Coding Partners.
-- Code Reviewers.
-- Credits to [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+- Hat tip to anyone whose code was used
+- Inspiration
+- Credit to the original designer by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
-## 📝 License
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right"><a href="#readme-top">back to top</a></p>
