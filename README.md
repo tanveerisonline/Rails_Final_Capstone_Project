@@ -36,7 +36,7 @@
 
 ## video demo 🎥
 
-[video demo here](https://www.loom.com/)
+[video demo here](https://www.loom.com)
 
 ## Render Deploy 🚀
 
